@@ -1,0 +1,160 @@
+
+
+body {background-color:#2c2c2c}
+
+.start {background-color: black ;display: flex}
+
+.start .navbar-collapse .nav-link 
+				{color: white;
+				font-weight: bold;
+				opacity: 0.8; padding: 8px 25px }
+
+.start .navbar-collapse .nav-link:hover
+		{font-size: 15px ;
+		color: #9d3aff;
+		opacity: 1}
+
+
+
+
+.firstnav .collapse {text-align: center}
+
+.navbar ul 
+   {justify-content: center;
+	width: 100%;}
+
+.start .navbar-brand img
+		{width: 150px ;height: 140px}
+
+.start .logo 
+			{position: absolute ;
+			 left: 50px ;
+			width: 100px ;
+			height: 50px }
+
+@media (max-width: 575.98px),(max-width: 767.98px){.start .logo 
+			{position: absolute ;
+			right: 0;
+			left: 0;
+			margin-left: auto;
+			margin-right: auto;
+			width: 100px ;
+			height: 50px }}
+ 
+.start .sign   
+		{position: absolute;
+		top: 15px;
+		right: 50px;
+		font-weight: bold;
+		color: white;
+    	opacity: 0.8;}
+
+@media (max-width: 575.98px){.start .sign   
+		{position: absolute;
+		top: 20px;
+		right: 25px;
+		z-index: 6;
+		font-weight: bold;
+		color: white;
+    	opacity: 0.8;}}
+
+.start .sign:hover
+		{font-size: 18px ;
+		color: #9d3aff;
+		opacity: 1}
+
+/*start team photo*/
+.team
+	{
+	background-size: cover;
+	width: 100%;}
+
+.team
+	{background-image: url("../images/trainers/team.jpg");}
+/*start team photo*/
+
+/*start icons*/
+
+.icon    
+	{ font-size: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    color: #9d3aff;
+	margin-top: 25px;}
+
+@media(max-width: 575.98px){.icon{
+	font-size: 50px;
+	display: flex;
+	justify-content: space-evenly;
+	color: #9d3aff;
+	margin-top: 25px;
+}}
+/*end icons*/
+
+
+.text  
+	{ text-align: center;
+   	margin-top: 20px;
+   	font-size: 20px;
+	font-weight: bold;}
+
+.text h1 ,p
+	{font-weight: bold;
+    color: white;}
+.text p { opacity: 0.8}
+
+
+.pics .row { margin: 0px ;text-align: center }
+
+
+
+
+.stronger {text-align: center;margin-top: 30px;color: white;font-weight: bold }
+
+
+/* start footer */
+
+.footer
+		{
+		text-align: center;}
+
+@media (max-width: 575.98px),(max-width: 767.98px){.footer{
+		display: none}}
+
+.footer .row 
+		{margin-left: 0px;
+		margin-right: 0px}
+
+ footer
+		{ font-size: 15px ;
+		font-weight: bold ;
+		color: #fff;}
+
+ footer span 
+		{color: #9d3aff;
+		font-weight: bold}
+
+.footer .font 
+        { color: #9d3aff;font-size: 15px;font-weight: bold  }
+
+/* end footer */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

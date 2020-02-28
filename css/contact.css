@@ -1,0 +1,162 @@
+
+/*start nav bar , logo , background */
+.back
+   {background-image:url("../images/contact-us/contact.jpg");
+    background-size: cover;
+    width: 100%;}
+
+.start
+    {display: flex ;
+    justify-content: center}
+
+.start .sign
+    {position: absolute;
+    top: 40px;
+    right: 40px;
+    z-index: 6;
+    font-weight: bold;
+    color:#d26161;
+    opacity: 0.8;}
+
+.start .sign:hover
+    {font-size: 20px ;
+    color:#b70d0d;
+    opacity: 1}
+
+.start .navbar-brand img
+    {width: 200px ;
+    height: 100px}
+
+.firstnav
+    { position: absolute;
+    z-index: 4}
+
+.firstnav .collapse
+    {margin-bottom: 10px;
+    padding-right: 200px;}
+
+.navbar-light .navbar-brand
+    {color: white}
+
+.navbar-light .navbar-brand:hover
+    {color: white}
+
+.navbar-light .navbar-nav .nav-link
+    {color: #d26161;
+    font-weight: bold}
+
+.navbar-light .navbar-nav .nav-link:hover
+    {color: #b70d0d}
+.navbar-light .navbar-toggler
+    {border: 1px solid white;
+    background-color: #ff0000}
+
+@media (max-width: 575.98px),(max-width: 767.98px),(max-width: 991.98px){.navbar-light .navbar-toggler
+    {border: 1px solid white;
+    background-color: #ff0000;
+    position: absolute;
+    top: 60px;
+    right: 10px;display: none}}
+
+/*end nav bar , logo , background */
+
+/* start form contact me */
+
+.contactus
+    {width: 100%;
+    max-width: 350px;
+    padding: 15px;
+    border: 1px solid #860000;
+    border-radius: 50px;
+    top:120px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    z-index: 4;
+    text-align: center;margin-bottom:30px }
+
+
+.contactus h1
+    {font-weight: bold;
+    font-size: 35px;
+    color: #d26161}
+
+.contactus p
+    {font-weight: bold;
+    font-size: 15px;
+    opacity: 0.7}
+
+.contactus .media
+    {justify-content: center;
+    padding: 5px;}
+
+.contactus .media a
+    {padding: 0px 10px;
+    font-size: 30px;
+    color: #663399}
+
+.contactus .subject
+    {margin-top: 15px}
+
+.contactus textarea
+    {margin-top: 16px;
+    margin-bottom: 0px;
+    height: 100px;
+    width: 100%}
+
+.contactus button
+    {margin: auto;
+    background: none;
+    color: #bd0000;
+    padding: 8px 60px;
+    border: 2px solid #bd0000;
+    font-weight: bold;
+    margin-top: 12px;
+    font-size: 15px;}
+
+.contactus button:hover
+    {background: #bd0000;
+    color: white;
+    border: 1px solid white}
+
+/* end form contact me */
+
+/* start footer */
+.footer
+    { position: absolute;
+    bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;}
+
+@media (max-width: 575.98px),(max-width: 767.98px)
+    {.footer{
+    display: none}}
+
+.footer .row
+    {margin-left: 0px;
+    margin-right: 0px}
+
+footer
+    { font-size: 15px ;
+    font-weight: bold ;
+    color: #d26161;}
+
+footer span
+    {color: #bd0000;
+    font-weight: bold}
+
+.footer .font
+    { color: #663399;font-size: 15px  }
+
+/* end footer */
+
+
+
+
+
+

@@ -1,0 +1,78 @@
+
+
+/*start bg for page*/
+.back
+	{background-image: url(../images/login/01.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 100%}
+/*end bg for page*/
+
+/*start overlay for bg*/
+.overlay
+	{position: absolute;
+	z-index: 3;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.8);
+	height: 100%}
+/*end overlay for bg */
+
+/* start login */
+.login 
+	    {width: 100%;
+     	max-width: 330px;
+   		padding: 15px;
+		border: 1px solid white;
+    	border-radius: 70px;
+    	top: 60px;
+		position: absolute;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+		z-index: 4}
+
+.login h1
+			{font-size: 25px;
+			margin-bottom: 20px;
+			color: white;
+			text-align: center}
+
+.login img 
+			{width: 100% ;
+			height: 200px }
+
+.login .regis , button 
+			{display: block;}
+
+.login .regis
+			{margin-bottom: -1px;
+			border-bottom-right-radius: 0;
+			border-bottom-left-radius: 0;
+			width: 100%;
+			padding: 10px 5px;
+			margin-top: 5px }
+
+.login label
+			{padding-top: 20px;
+   			font-weight: bold;
+			color: white}
+
+.login button 
+		    {margin: auto;
+  		    background: none;
+			color: #bd0000;
+			padding: 6px 60px;
+			border: 2px solid #bd0000;
+			font-weight: bold;
+			margin-top: 20px;
+			font-size: 20px;
+                     }
+
+.login button:hover
+		{background: #bd0000;
+		color: white;
+		border: 1px solid white}
+
+/* end  login */ 
+

@@ -1,0 +1,40 @@
+
+//start header
+.logo{
+  text-align: center;
+  img{
+    max-width: 20%;
+    @media(max-width: 767px){max-width: 60%;}
+  }
+}
+.navbar-light{
+  .navbar-toggler{
+    border:none;
+    background: $yellow-color;
+  }
+  .collapse{
+    justify-content: center;
+    margin-top: 20px;
+      @media(max-width: 768px){margin-top: 0;}
+  }
+  ul{
+    li{
+      padding: 0 15px;
+      @media(max-width: 768px){padding-top: 10px;}
+      a{
+        color: #fff024;
+        font-family: 'Comic Neue', cursive;
+        font-size: 21px;
+        text-decoration: none;
+        transition: font-size .5s;
+        &:hover{
+          font-size: 20px;
+        }
+      }
+    }
+    .hide-classes{
+      @media(max-width: 768px){display: none;}
+    }
+  }
+}
+//end header

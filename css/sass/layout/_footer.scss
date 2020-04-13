@@ -1,0 +1,70 @@
+//start footer
+.footer{
+  background: #000;
+  text-align: center;
+  .social-media{
+    img{
+      max-width: 20%;
+      @media(max-width: 767px){max-width: 60%;}
+    }
+    .media{
+      justify-content: center;
+      ul{
+        list-style: none;
+        display: inline-flex;
+        padding: 0;
+        li{
+          margin: 0 10px;
+          font-size: 25px;
+          transition: all .3s;
+          &:hover{
+            font-size: 20px;
+          }
+            .facebook{
+              color: #3b5999;
+              cursor: pointer;
+            }
+            .instagram{
+              color: #e4405f;
+              cursor: pointer;
+            }
+            .twitter{
+              color:#55acee;
+              cursor: pointer;
+            }
+            .youtube{
+              color:#cd201f;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+    }
+  }
+  footer{
+      color: white;
+      font-family: 'Comic Neue', cursive;
+      padding: 15px;
+      font-size: 25px;
+      @media(max-width: 767px){font-size: 12px;}
+      span{
+        color: #fff024;
+      }
+  }
+//end footer
+//start icon to scroll to top
+.scrollup{
+    display: none;
+    position: fixed;
+    color: $yellow-color;
+    right: 25px;
+    bottom: 25px;
+    border: 3px solid $yellow-color;
+    border-radius: 50px;
+    padding: 7px;
+    font-size: 25px;
+    &:hover .fas{
+      color: red;
+      transition: color .5s;
+    }
+}

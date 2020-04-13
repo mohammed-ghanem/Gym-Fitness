@@ -47,74 +47,85 @@
   }
 }
 
-.start {
-  background-image: url(../images/back-trainers.jpg);
-  background-size: cover;
-  background-attachment: fixed;
-  height: 100vh;
-  overflow: hidden;
+.app .container {
+  background: #444;
+  border-radius: 50px;
+  box-shadow: 0px 0px 15px #fff024;
+  margin: 20px auto;
+  padding-bottom: 10px;
 }
-
-.welcome-text {
-  text-align: center;
-  margin-top: 75px;
+@media (max-width: 767px) {
+  .app .container {
+    width: 98%;
+  }
 }
-.welcome-text h1 {
-  color: #fff;
-  text-shadow: 0px 5px 4px #000;
-  font-family: "Comic Neue", cursive;
-  padding: 0 2px;
-}
-.welcome-text p {
-  padding-bottom: 25px;
-}
-.welcome-text p span {
+.app .container .logo {
+  max-width: 20%;
   display: block;
-  color: #fff;
-  text-shadow: 0px 5px 4px #f00;
+  margin: auto;
+}
+@media (max-width: 767px) {
+  .app .container .logo {
+    max-width: 60%;
+  }
+}
+.app .container h2 {
+  display: none;
+  color: white;
+  font-family: "Comic Neue", cursive;
+  text-align: center;
+}
+.app .container h2 span a {
+  text-decoration: none;
+  color: #fff024;
+}
+.app .container h4 {
+  color: white;
+  font-family: "Comic Neue", cursive;
+  text-align: center;
+}
+.app .container .welcome-img {
+  display: block;
+  margin: 25px auto;
+  max-width: 100%;
+}
+.app .container .app-form input {
+  margin-top: 5px;
+}
+.app .container .app-form .more-details {
+  margin-top: 15px;
+}
+.app .container .app-form .more-details h5 {
+  color: #fff024;
   font-family: "Comic Neue", cursive;
   font-size: 20px;
-  padding: 10px 0;
 }
-
-.icons {
-  text-align: center;
-  background: #ebebeb;
+.app .container .app-form .more-details ul {
+  list-style: none;
+  padding: 0;
 }
-@media (max-width: 425px) {
-  .icons {
-    display: none;
-  }
-}
-.icons i {
-  font-size: 40px;
-  padding: 45px;
-  color: #fff024;
-  text-shadow: 1px 2px 10px black;
-}
-.icons .stronge {
-  background: #ebebeb;
-  text-align: center;
-}
-@media (max-width: 425px) {
-  .icons .stronge {
-    display: none;
-  }
-}
-.icons .stronge h3 {
-  color: #fff024;
-  text-shadow: 0px 2px 4px #000;
+.app .container .app-form .more-details ul li {
+  color: #fff;
   font-family: "Comic Neue", cursive;
-  margin: 0;
+  font-size: 16px;
 }
-
-.team {
-  background: #ebebeb;
-  padding: 20px 0;
-  text-align: center;
+.app .container .app-form .more-details hr {
+  background: #fff;
 }
-.team .team-photo {
-  padding: 0 1px;
+.app .container .app-form .more-details textarea {
+  display: block;
+  width: 100%;
+  height: 150px;
+}
+.app .container .app-form .more-details .send {
+  display: block;
+  margin: 20px auto;
+  padding: 5px 25px;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  background: #fff024;
+  font-weight: bold;
 }
 
 .footer {
@@ -193,4 +204,4 @@ footer span {
   transition: color 0.5s;
 }
 
-/*# sourceMappingURL=trainers.css.map */
+/*# sourceMappingURL=memeber-ship.css.map */

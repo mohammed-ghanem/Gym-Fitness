@@ -1,93 +1,201 @@
+.logo {
+  text-align: center;
+}
+.logo img {
+  max-width: 20%;
+}
+@media (max-width: 767px) {
+  .logo img {
+    max-width: 60%;
+  }
+}
 
+.navbar-light .navbar-toggler {
+  border: none;
+  background: #fff024;
+}
+.navbar-light .collapse {
+  justify-content: center;
+  margin-top: 20px;
+}
+@media (max-width: 768px) {
+  .navbar-light .collapse {
+    margin-top: 0;
+  }
+}
+.navbar-light ul li {
+  padding: 0 15px;
+}
+@media (max-width: 768px) {
+  .navbar-light ul li {
+    padding-top: 10px;
+  }
+}
+.navbar-light ul li a {
+  color: #fff024;
+  font-family: "Comic Neue", cursive;
+  font-size: 21px;
+  text-decoration: none;
+  transition: font-size 0.5s;
+}
+.navbar-light ul li a:hover {
+  font-size: 20px;
+}
+@media (max-width: 768px) {
+  .navbar-light ul .hide-classes {
+    display: none;
+  }
+}
 
-/* start bg for page sign up */
+body {
+  background: -webkit-radial-gradient(#ddd, #000 70%);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
-.back
-	{background-image: url("../images/login/01.jpg");
-	background-size: cover;
-	width: 100%;
-	height: 100%}
-/* end bg for page sign up */
+.sign-up {
+  padding: 45px 0;
+}
+.sign-up img {
+  max-width: 20%;
+  display: block;
+  margin: auto;
+}
+@media (max-width: 767px) {
+  .sign-up img {
+    max-width: 60%;
+  }
+}
+.sign-up h1 {
+  text-align: center;
+  font-family: "Comic Neue", cursive;
+  font-size: 45px;
+  color: #fff;
+}
+@media (max-width: 767px) {
+  .sign-up h1 {
+    font-size: 25px;
+  }
+}
+.sign-up h1 a {
+  text-decoration: none;
+  color: #fff024;
+}
+.sign-up p {
+  text-align: center;
+  font-family: "Comic Neue", cursive;
+  color: #fff024;
+  font-size: 18px;
+}
+.sign-up .form-control {
+  width: 50%;
+  margin: 15px auto;
+}
+@media (max-width: 768px) {
+  .sign-up .form-control {
+    width: 100%;
+  }
+}
+.sign-up .check {
+  margin: 6px;
+  font-weight: bold;
+  color: #fff;
+}
+@media (min-width: 992px) {
+  .sign-up .check {
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+  }
+}
+.sign-up .check span {
+  color: #fff024;
+}
+.sign-up [type=submit] {
+  margin: 15px auto;
+  display: block;
+  padding: 5px 25px;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  background: #fff024;
+  font-weight: bold;
+}
 
-/* start overlay for bg */
-.overlay
-	{position: absolute;
-	z-index: 3;
-	width: 100%;
-	background-color: rgba(0, 0, 0, 0.8);
-	height: 100%}
-/*end overlay for bg*/
+.footer {
+  background: #000;
+  text-align: center;
+}
+.footer .social-media img {
+  max-width: 20%;
+}
+@media (max-width: 767px) {
+  .footer .social-media img {
+    max-width: 60%;
+  }
+}
+.footer .social-media .media {
+  justify-content: center;
+}
+.footer .social-media .media ul {
+  list-style: none;
+  display: inline-flex;
+  padding: 0;
+}
+.footer .social-media .media ul li {
+  margin: 0 10px;
+  font-size: 25px;
+  transition: all 0.3s;
+}
+.footer .social-media .media ul li:hover {
+  font-size: 20px;
+}
+.footer .social-media .media ul li .facebook {
+  color: #3b5999;
+  cursor: pointer;
+}
+.footer .social-media .media ul li .instagram {
+  color: #e4405f;
+  cursor: pointer;
+}
+.footer .social-media .media ul li .twitter {
+  color: #55acee;
+  cursor: pointer;
+}
+.footer .social-media .media ul li .youtube {
+  color: #cd201f;
+  cursor: pointer;
+}
 
+footer {
+  color: white;
+  font-family: "Comic Neue", cursive;
+  padding: 15px;
+  font-size: 25px;
+}
+@media (max-width: 767px) {
+  footer {
+    font-size: 12px;
+  }
+}
+footer span {
+  color: #fff024;
+}
 
-	/*start form sign-up*/
+.scrollup {
+  display: none;
+  position: fixed;
+  color: #fff024;
+  right: 25px;
+  bottom: 25px;
+  border: 3px solid #fff024;
+  border-radius: 50px;
+  padding: 7px;
+  font-size: 25px;
+}
+.scrollup:hover .fas {
+  color: red;
+  transition: color 0.5s;
+}
 
-.signup
-	{width: 100%;
-	max-width: 500px;
-	padding: 15px;
-	border: 1px solid white;
-	border-radius: 50px;
-	top:25px;
-	position: absolute;
-	margin-left: auto;
-	margin-right: auto;
-	left: 0;
-	right: 0;
-	z-index: 4;
-	bottom: 20px;
-	height: auto}
-
-.signup h1
-			{font-size: 25px;
-			margin-bottom: 20px;
-			color: white;text-align: center}
-
-.signup p
-			{font-size: 15px;
-			margin-bottom: 20px;
-			color: white;text-align: center;
-			font-weight: bold}
-.signup img
-			{    width: 80%;
-				height: 130px;
-				display: block;
-				margin: auto }
-
-.signup .form-control
-		{ margin-top: 5px }
-
- label
- 		{font-size: 12px;
-	 	margin-top: 7px;
-	 	font-weight: bold;
-	 	color: white;}
-
-.signup button
-		{
-		margin: auto;
-		background: none;
-		color: #bd0000;
-		padding: 5px 40px;
-		border: 2px solid #bd0000;
-		font-weight: bold;
-		margin-top: 5px;
-		font-size: 16px;}
-
-.signup button:hover
-{color: white;
-	background-color: #bd0000;
-	border: 1px solid white;}
-
-@media (max-width: 575.98px),(max-width: 767.98px),(max-width: 991.98px)
-		{.signup button{
-		margin: auto;
-		background: none;
-		color: #bd0000;
-		padding: 5px 40px;
-		border: 2px solid #bd0000;
-		font-weight: bold;
-		margin-top: 5px;
-		font-size: 16px;}}
-
-
-	/*end form sign-up*/
+/*# sourceMappingURL=sign-up.css.map */

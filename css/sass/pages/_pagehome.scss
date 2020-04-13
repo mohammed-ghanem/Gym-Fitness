@@ -1,0 +1,220 @@
+// start head title
+.start{
+  background-image: url(../images/back-img.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+.title{
+  text-align: center;
+  margin-top: 75px;
+  h1{
+    color: white;
+    text-shadow: 0px 1px 2px #000;
+    font-size: 36px;
+    font-family: 'Comic Neue', cursive;
+    padding: 0 2px;
+    @media(max-width: 767px){font-size: 26px;}
+    span{
+      color: #fff024;
+    }
+  }
+  p{
+    color: white;
+    font-family: 'Comic Neue', cursive;
+    padding: 15px;
+    span{
+      color: #fff024;
+    }
+  }
+  .join{
+    padding: 5px 25px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    background: #fff024;
+    font-weight: bold;
+    a{
+      text-decoration: none;
+      color: black;
+    }
+  }
+}
+// end head title
+// start classes
+.classes{
+  background: #000;
+  // -webkit-radial-gradient(#fff, #000 35%);
+  .intro{
+    text-align: center;
+    h2{
+    text-align: center;
+    font-family: 'Comic Neue', cursive;
+    font-size: 40px;
+    color: #fff024;
+    text-shadow: 2px 3px 4px #000;
+    padding: 25px 0;
+    }
+    p{
+      text-align: center;
+      color: #fff;
+      font-family: "Comic Neue", cursive;
+      text-shadow: 1px 1px 20px #fff024;
+      font-size: 25px;
+      span{
+        color: #fff024;
+      }
+    }
+    ul{
+      list-style: none;
+      display: inline-flex;
+      padding: 10px 0;
+      // @media(max-width: 1024px){display: block;}
+      .active{
+        border:2px solid #fff024;
+        background: #000;
+        color: #fff024;
+      }
+      li{
+        padding: 5px 25px;
+        border-radius: 50px;
+        border: none;
+        outline: none;
+        background: #fff024;
+        font-family: "Comic Neue", cursive;
+        font-size: 18px;
+        margin: 3px 0;
+        cursor: pointer;
+          // @media(max-width: 1024px){margin: 4px 100px;}
+          // @media(max-width: 767px){margin: 4px 10px;}
+      }
+    }
+    .hide-gallary{
+      display: none;
+    }
+    section{
+      img{
+        @media(max-width: 767px){max-width: 90%;}
+      }
+      div{
+        padding: 5px;
+      }
+    }
+  }
+}
+// end classes
+// start serives
+.services{
+  text-align: center;
+  background: -webkit-radial-gradient(#fff, #000 70%);
+  padding-bottom: 34px;
+    h2{
+    text-align: center;
+    font-family: 'Comic Neue', cursive;
+    font-size: 40px;
+    color: #fff024;
+    text-shadow: 2px 3px 4px #000;
+    padding: 25px 0;
+    }
+    p{
+      color: white;
+      font-family: 'Comic Neue', cursive;
+      padding: 15px;
+      font-size: 17px;
+      span{
+        color: #fff024;
+      }
+    }
+  .show-service{
+    .card{
+      position: relative;
+      padding: 0;
+      @media(max-width: 768px){margin:5px;}
+      &:hover .show{
+        opacity: 1;
+      }
+      .overlay{
+        position: absolute;
+        z-index: 1;
+        background: rgba(0,0,0,.7);
+        width: 100%;
+        height: 100%;
+          }
+      .card-title{
+        position: absolute;
+        color: white;
+        z-index: 2;
+        margin: auto;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        max-height: 50px; /* this for firfox to center element*/
+        height: fit-content;
+        font-family: "Comic Neue", cursive;
+        color: #fff024;
+        font-size: 26px;
+      }
+      .show{
+        opacity: 0;
+        transition: opacity 0.5s;
+      }
+    }
+  }
+}
+// end services
+//start slider
+.slider{
+  text-align: center;
+  text-align: -webkit-center;
+  text-align: -moz-center;
+  background: -webkit-linear-gradient(#000, #fff 90%);
+  padding: 30px 0;
+  h2{
+  text-align: center;
+  font-family: 'Comic Neue', cursive;
+  font-size: 30px;
+  color: #fff024;
+  text-shadow: 2px 3px 4px #000;
+  padding: 25px 0;
+  @media(max-width: 767px){padding: 5px 0;}
+  }
+  p{
+    color: white;
+    font-family: 'Comic Neue', cursive;
+    padding: 15px;
+    font-size: 25px;
+    @media(max-width: 767px){font-size: 18px;}
+    span{
+      color: #fff024;
+    }
+  }
+}
+//end slider
+//start health
+.health{
+  text-align:center;
+  background: -webkit-linear-gradient(#fff, #000 100%);
+  padding: 42px;
+  @media(max-width: 767px){padding: 30px;}
+  h2{
+  text-align: center;
+  font-family: 'Comic Neue', cursive;
+  font-size: 40px;
+  color: #fff024;
+  text-shadow: 2px 3px 4px #000;
+  padding: 25px 0;
+  @media(max-width: 767px){padding: 2px 0;font-size: 15px;}
+  }
+  p{
+    color: white;
+    font-family: 'Comic Neue', cursive;
+    padding: 15px;
+    font-size: 25px;
+    @media(max-width: 767px){font-size: 13px;}
+    span{
+      color: #fff024;
+    }
+  }
+}
+//end health

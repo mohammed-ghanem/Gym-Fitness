@@ -1,388 +1,366 @@
-
-/* start first nav with backgrond photos*/
-.back 
-		{
-		background-size: cover;
-		width: 100%;
-		background-image:url("../images/01.jpg");}
-
-.start 
-		{display: flex ;
-		justify-content: center}
-
-.start .sign   
-		{position: absolute;
-		top: 30px;
-		right: 50px;
-		z-index: 6;
-		font-weight: bold;
-		color: white;
-    	opacity: 0.8;}
-
-@media (max-width: 575.98px){.start .sign   
-		{position: absolute;
-		top: 20px;
-		right: 25px;
-		z-index: 6;
-		font-weight: bold;
-		color: white;
-    	opacity: 0.8;}}
-
-.start .sign:hover
-		{font-size: 18px ;
-		color: white;
-		opacity: 1}
-
-.start .navbar-brand img
-		{width: 240px ;
-		height: 140px}
-
-.firstnav 
-		{ position: absolute;
-		z-index: 4}
-
-.firstnav .collapse 
-		{margin-bottom: 65px;
-        padding-right: 200px;}
-
-.navbar-light .navbar-brand 
-		{color: white}
-
-.navbar-light .navbar-brand:hover 
-		{color: white}
-
-.nav-link
-		{display: inline-block}
-
-.navbar-light .navbar-nav .nav-link
-		{color: #bd0000;
-		font-weight: bold}
-
-.navbar-light .navbar-nav .nav-link:hover 
-		{color: white}
-.navbar-light .navbar-toggler
-		{border: 1px solid white;
-		background-color: #ff0000}
-
-@media (max-width: 767.98px)
-		{.navbar-light .navbar-toggler
-		{border: 1px solid white;
-		background-color: #ff0000;
-		position: absolute;
-		top: 60px;
-		right: 10px;}}
-
-.start .overlay 
-			{position: absolute;
-			z-index: 2 ;
-			width: 100% ;
-			height: 100%; 
-			left: 0 ;
-			right: 0;
-			background-color:  rgba(0, 0, 0, .2)}
-.start h2 
-			{position: absolute;
-			z-index: 5;
-			color: white;
-			text-align: center;
-			top:200px;
-			padding: 20px; 
-			opacity: 0.8;
-			font-weight: bold}
-
-@media (max-width: 575.98px),(max-width: 767.98px),(max-width: 991.98px)
-			{.start h2
-			{display: none}}
-
-.start h2  span
-			{color: #bd0000;
-			font-weight: bold;
-			font-size: 50px }
-
-.start p 
-		    {position: absolute ; 
-			z-index: 6;
-			top:375px;
-			color: white;
-			font-weight: bold;
-			padding-top: 20px ;
-			opacity: 0.8}
-
-@media (max-width: 767.98px),(max-width: 991.98px){.start p
-			{position: absolute ; 
-			z-index: 6;
-			top:400px;
-			color: white;
-			font-weight: bold;
-			padding-top: 20px ;
-			opacity: 0.8}}
-
-.start .color 
-			{color: red;}
-.start .join 
-			{position: absolute;
-			z-index: 7;
-			top: 500px;
-			background: none;color: #bd0000;
-			padding: 4px 10px ;
-			border: 2px solid  #bd0000;
-             font-weight: bold}
-
-@media (max-width: 767.98px),(max-width: 991.98px){.start .join 
-			{position: absolute;
-			z-index: 7;
-			top: 500px;
-			background: none;color: #bd0000;
-			padding: 4px 10px ;
-			border: 2px solid  #bd0000;
-             font-weight: bold}}
-
-.start .join:hover
-			{background: #bd0000;
-			color: white;
-			border: 1px solid white}
-
-/* end first nav with backgrond photos*/
-
-/*  start classes */
-.classes 
-		{background-image: url(../images/bbb.jpg);
-		width: 100% ;
-		background-repeat: no-repeat;
-		background-size: cover;
-		padding-top: 20px }
-
-.classes h2 , p  
-		{;display: flex;
-		justify-content: center; }
-
-.classes h2 
-			{font-size: 35px;
-			color:#bd0000}
-.classes p
-			  { font-weight: bold ;
-				font-size: 15px;
-				color: white;
-				opacity: 0.9;
-				padding: 20px }
-.classes p span 
-            {color: #bd0000}
-
-.classes ul
-		{text-align-last: center}
-
-.classes ul li
-		{display: inline-block;
-		justify-content: center;
-		padding: 15px 0px  }
-
-.classes ul li button 
-			{color: white;
-			background: #ff08088a;
-			font-weight: bold;
-			margin: 10px 12px;
-			border: 1px solid white;
-			font-size: 17px;
-			padding: 2px 5px;}
-
-@media (max-width: 767.98px){.classes ul li button 
-			{color: white;
-			background: #ff08088a;
-			font-weight: bold;
-			margin: 0px 5px;
-			border: 1px solid white;
-			font-size: 12px;
-			padding: 2px 5px;}}
-
-.classes ul li #all , #weghit , #pers , #group , #yoga , #zumba ,#cardio {padding: 5px}
-
-.classes .row 
-			{ margin: 0px ;
-			padding-bottom: 30px ;
-			opacity: 0.9 }
-
-.classes .all .one 
-			{margin-bottom: 20px}
-
-.classes  .weghit , .pers , .group , .yoga , .zumba , .cardio 
-			{display:none }
-
-/*  end classes */
-
-
-/* start serivces */
-.services 
-			{background-image: url(../images/bb.jpg);
-			width: 100% ;
-			background-repeat: no-repeat;
-			background-size: cover;
-			padding-top: 10px;
-			padding-bottom: 10px }
-
-.services h2 , p
-		   {;display: flex; 
-			justify-content: center;}
-
-@media (max-width: 767.98px){.services p
-		{display: none}}
-
-.services h2 
-			{font-size: 35px;
-			color:#bd0000;
-            font-weight: bold}
-
-.services .ser
-		{ font-weight: bold ;
-		font-size: 15px;
-		color: white;
-		opacity: 0.9;
-		padding: 20px }
-
-.services .ser span
-		{color: #bd0000;
-		font-weight: bold ; }
-
-.services .row
-		{justify-content: center}
-
-.services .allser .container
-		{max-width:1000px }
-
-.services .allser .container div
-		{padding: 0px }
-
-.services .allser h5
-		{ position: absolute;
-		top: 50%;
-		left: 39%;
-		font-size: 30px;
-		color: snow;
-		font-weight: bold;
-		z-index: 3;
-		display: none}
-
-.services  .overlay
-		{position: absolute;
-		z-index: 2 ;
-		width: 100% ;
-		height: 100%;
-		left: 0 ;
-		right: 0;
-		bottom: 0px ;
-		background-color: rgba(0, 0, 0, .4);
-		display: none}
-
-/* end serivces */
-
-/* start slideshow */
-
-.slide
-		{background-image: url(../images/bb.jpg);
-		background-size: cover;}
-
-.slide h2 , p
-		   {;display: flex; 
-			justify-content: center;}
-
-.slide h2
-		{ padding: 20px;
-		font-size: 35px;
-		color:#bd0000;
-		display: flex;
-		justify-content: center}
-
- .slide p
- 		{ font-weight: bold ;
-		 font-size: 15px;
-		 color: white;
-		 opacity: 0.9;
-		 padding: 20px }
-
-@media (max-width: 767.98px){.slide p  
-		{ font-weight: bold ;
-		font-size: 15px;
-		color: white;
-		opacity: 0.9;
-		padding: 20px;
-		display: none}}
-	
-.slide span
-		{color: #bd0000;
-		font-weight: bold ; }
-
-.slide img
-		{height: 550px }
-
-/* end  slideshow */
-
-/*start last p */
-.health
-		{background-image: url(../images/bb.jpg);
-		background-size: cover;
-		text-align: center;
-		padding-bottom: 20px }
-
-.health h2
-		{ padding: 20px;
-		font-size: 35px;
-		color:#bd0000;}
-
- .health p
- 		{ font-weight: bold ;
-		 font-size: 15px;
-		 color: white;
-		 opacity: 0.9;
-		 padding: 20px }
-
-@media (max-width: 767.98px){ .health p  
-		{ font-weight: bold ;
-		font-size: 15px;
-		color: white;
-		opacity: 0.9;
-		padding: 20px;
-		display: none}}
-
-.health span
-		{color: #bd0000;
-		font-weight: bold ; }
-/*start last p */
-/* start footer*/
-.footer 
-       	{background-color: black;
-		   text-align: center;
-		   padding-top: 10px }
-
-.footer .last footer
-			{ font-size: 15px ;
-			font-weight: bold ;
-				color: white;
-				opacity: 0.9; }
-
-.last footer span 
-			{color: #bd0000;
-			font-weight: bold}
-.footer .lastlogo 
-			{width: 20% }
-.footer .media 
-            {display: block}
-.footer i 
-			{font-size: 35px;
-    		padding: 5px;
-    		;color: white;
-			opacity: 0.9;
-			margin-bottom: 10px }
-/* end footer*/
-/*start scroll up*/
-.scrollup
-		{ padding: 2px 12px;
-		background-color:#f90505;
-		color: white;
-		bottom: 10px;
-		right: 10px;
-		position: fixed;
-		display: none;
-		font-size: 25px;}
-/*end scroll up*/
-
-
-
+.logo {
+  text-align: center;
+}
+.logo img {
+  max-width: 20%;
+}
+@media (max-width: 767px) {
+  .logo img {
+    max-width: 60%;
+  }
+}
+
+.navbar-light .navbar-toggler {
+  border: none;
+  background: #fff024;
+}
+.navbar-light .collapse {
+  justify-content: center;
+  margin-top: 20px;
+}
+@media (max-width: 768px) {
+  .navbar-light .collapse {
+    margin-top: 0;
+  }
+}
+.navbar-light ul li {
+  padding: 0 15px;
+}
+@media (max-width: 768px) {
+  .navbar-light ul li {
+    padding-top: 10px;
+  }
+}
+.navbar-light ul li a {
+  color: #fff024;
+  font-family: "Comic Neue", cursive;
+  font-size: 21px;
+  text-decoration: none;
+  transition: font-size 0.5s;
+}
+.navbar-light ul li a:hover {
+  font-size: 20px;
+}
+@media (max-width: 768px) {
+  .navbar-light ul .hide-classes {
+    display: none;
+  }
+}
+
+.start {
+  background-image: url(../images/back-img.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.title {
+  text-align: center;
+  margin-top: 75px;
+}
+.title h1 {
+  color: white;
+  text-shadow: 0px 1px 2px #000;
+  font-size: 36px;
+  font-family: "Comic Neue", cursive;
+  padding: 0 2px;
+}
+@media (max-width: 767px) {
+  .title h1 {
+    font-size: 26px;
+  }
+}
+.title h1 span {
+  color: #fff024;
+}
+.title p {
+  color: white;
+  font-family: "Comic Neue", cursive;
+  padding: 15px;
+}
+.title p span {
+  color: #fff024;
+}
+.title .join {
+  padding: 5px 25px;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  background: #fff024;
+  font-weight: bold;
+}
+.title .join a {
+  text-decoration: none;
+  color: black;
+}
+
+.classes {
+  background: #000;
+}
+.classes .intro {
+  text-align: center;
+}
+.classes .intro h2 {
+  text-align: center;
+  font-family: "Comic Neue", cursive;
+  font-size: 40px;
+  color: #fff024;
+  text-shadow: 2px 3px 4px #000;
+  padding: 25px 0;
+}
+.classes .intro p {
+  text-align: center;
+  color: #fff;
+  font-family: "Comic Neue", cursive;
+  text-shadow: 1px 1px 20px #fff024;
+  font-size: 25px;
+}
+.classes .intro p span {
+  color: #fff024;
+}
+.classes .intro ul {
+  list-style: none;
+  display: inline-flex;
+  padding: 10px 0;
+}
+.classes .intro ul .active {
+  border: 2px solid #fff024;
+  background: #000;
+  color: #fff024;
+}
+.classes .intro ul li {
+  padding: 5px 25px;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  background: #fff024;
+  font-family: "Comic Neue", cursive;
+  font-size: 18px;
+  margin: 3px 0;
+  cursor: pointer;
+}
+.classes .intro .hide-gallary {
+  display: none;
+}
+@media (max-width: 767px) {
+  .classes .intro section img {
+    max-width: 90%;
+  }
+}
+.classes .intro section div {
+  padding: 5px;
+}
+
+.services {
+  text-align: center;
+  background: -webkit-radial-gradient(#fff, #000 70%);
+  padding-bottom: 34px;
+}
+.services h2 {
+  text-align: center;
+  font-family: "Comic Neue", cursive;
+  font-size: 40px;
+  color: #fff024;
+  text-shadow: 2px 3px 4px #000;
+  padding: 25px 0;
+}
+.services p {
+  color: white;
+  font-family: "Comic Neue", cursive;
+  padding: 15px;
+  font-size: 17px;
+}
+.services p span {
+  color: #fff024;
+}
+.services .show-service .card {
+  position: relative;
+  padding: 0;
+}
+@media (max-width: 768px) {
+  .services .show-service .card {
+    margin: 5px;
+  }
+}
+.services .show-service .card:hover .show {
+  opacity: 1;
+}
+.services .show-service .card .overlay {
+  position: absolute;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+}
+.services .show-service .card .card-title {
+  position: absolute;
+  color: white;
+  z-index: 2;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  max-height: 50px;
+  /* this for firfox to center element*/
+  height: fit-content;
+  font-family: "Comic Neue", cursive;
+  color: #fff024;
+  font-size: 26px;
+}
+.services .show-service .card .show {
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.slider {
+  text-align: center;
+  text-align: -webkit-center;
+  text-align: -moz-center;
+  background: -webkit-linear-gradient(#000, #fff 90%);
+  padding: 30px 0;
+}
+.slider h2 {
+  text-align: center;
+  font-family: "Comic Neue", cursive;
+  font-size: 30px;
+  color: #fff024;
+  text-shadow: 2px 3px 4px #000;
+  padding: 25px 0;
+}
+@media (max-width: 767px) {
+  .slider h2 {
+    padding: 5px 0;
+  }
+}
+.slider p {
+  color: white;
+  font-family: "Comic Neue", cursive;
+  padding: 15px;
+  font-size: 25px;
+}
+@media (max-width: 767px) {
+  .slider p {
+    font-size: 18px;
+  }
+}
+.slider p span {
+  color: #fff024;
+}
+
+.health {
+  text-align: center;
+  background: -webkit-linear-gradient(#fff, #000 100%);
+  padding: 42px;
+}
+@media (max-width: 767px) {
+  .health {
+    padding: 30px;
+  }
+}
+.health h2 {
+  text-align: center;
+  font-family: "Comic Neue", cursive;
+  font-size: 40px;
+  color: #fff024;
+  text-shadow: 2px 3px 4px #000;
+  padding: 25px 0;
+}
+@media (max-width: 767px) {
+  .health h2 {
+    padding: 2px 0;
+    font-size: 15px;
+  }
+}
+.health p {
+  color: white;
+  font-family: "Comic Neue", cursive;
+  padding: 15px;
+  font-size: 25px;
+}
+@media (max-width: 767px) {
+  .health p {
+    font-size: 13px;
+  }
+}
+.health p span {
+  color: #fff024;
+}
+
+.footer {
+  background: #000;
+  text-align: center;
+}
+.footer .social-media img {
+  max-width: 20%;
+}
+@media (max-width: 767px) {
+  .footer .social-media img {
+    max-width: 60%;
+  }
+}
+.footer .social-media .media {
+  justify-content: center;
+}
+.footer .social-media .media ul {
+  list-style: none;
+  display: inline-flex;
+  padding: 0;
+}
+.footer .social-media .media ul li {
+  margin: 0 10px;
+  font-size: 25px;
+  transition: all 0.3s;
+}
+.footer .social-media .media ul li:hover {
+  font-size: 20px;
+}
+.footer .social-media .media ul li .facebook {
+  color: #3b5999;
+  cursor: pointer;
+}
+.footer .social-media .media ul li .instagram {
+  color: #e4405f;
+  cursor: pointer;
+}
+.footer .social-media .media ul li .twitter {
+  color: #55acee;
+  cursor: pointer;
+}
+.footer .social-media .media ul li .youtube {
+  color: #cd201f;
+  cursor: pointer;
+}
+
+footer {
+  color: white;
+  font-family: "Comic Neue", cursive;
+  padding: 15px;
+  font-size: 25px;
+}
+@media (max-width: 767px) {
+  footer {
+    font-size: 12px;
+  }
+}
+footer span {
+  color: #fff024;
+}
+
+.scrollup {
+  display: none;
+  position: fixed;
+  color: #fff024;
+  right: 25px;
+  bottom: 25px;
+  border: 3px solid #fff024;
+  border-radius: 50px;
+  padding: 7px;
+  font-size: 25px;
+}
+.scrollup:hover .fas {
+  color: red;
+  transition: color 0.5s;
+}
+
+/*# sourceMappingURL=home.css.map */
